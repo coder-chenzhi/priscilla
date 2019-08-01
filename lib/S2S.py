@@ -6,7 +6,6 @@ import astor
 sys.path.append('./built')
 from PlSqlLexer import PlSqlLexer
 from PlSqlParser import PlSqlParser
-from PlSqlParserVisitor import PlSqlParserVisitor
 from ScriptVisitor import ScriptVisitor
 from AntlrCaseInsensitiveFileInputStream import AntlrCaseInsensitiveFileInputStream
 
